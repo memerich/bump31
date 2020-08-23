@@ -5,7 +5,6 @@ const chalk = require("chalk");
 var Jimp = require("jimp");
 const { Client, Util } = require("discord.js");
 const fs = require("fs");
-require("./util/eventLoader")(client);
 
 var prefix = ayarlar.prefix;
 
