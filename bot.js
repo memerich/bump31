@@ -104,18 +104,6 @@ client.on("error", e => {
 
 
 
-const app = express();
-app.get("/", (request, response) => {
-  console.log(Date.now() + " Ping tamamdır.");
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`https://bumpbottttttt.herokuapp.com/`);
-}, 28000);
-
-
-
 
 
 
